@@ -86,7 +86,7 @@ class _BlackJackScreenState extends State<BlackJackScreen> {
     "cards/A3.png": 11,
     "cards/A4.png": 11,
   };
-
+  //Cards can be changed but you have to make it available on cards folder and run pub get.
   // Playing cards in this game.
   Map<String, int> playingCards = {};
 
